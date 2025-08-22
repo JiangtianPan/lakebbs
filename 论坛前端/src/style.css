@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 滚动条样式 */
+.scroll-container-main::-webkit-scrollbar {
+  width: 1px; /* 垂直滚动条的宽度 */
+}
+/* 自定义样式 */
+.freshNews .el-dialog {
+  margin: auto 15% !important;
+  background-color: #000000;
+}
+.freshNews .el-overlay{
+  background-color: transparent;
+}
+/* 首页对话框样式 */
+.home .el-dialog {
+  margin: auto 15% !important;
+  background-color: #000000;
+}
+.home .el-overlay{
+  background-color: transparent;
+}
+/* .navTab  .el-dialog{
+  margin-left: 15% !important;
+} */
